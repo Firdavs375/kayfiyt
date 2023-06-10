@@ -1,0 +1,124 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=S_8Tmg0Wr2uguacJc8FEII8xsFEkMub-V7hz8UQKs2bCcLYC0GhYyxr_Ovy8zairl6ai8m7btTcqj4-ByRQGwA"
+        charset="UTF-8"></script>
+</head>
+
+<body>
+    <section class="panel-container" id="panel">
+        <h3>Your Feedback 😉</h3>
+        <div class="ratings-container">
+            <div class="container">
+                <div class="rating">
+                    <div class="icon">😒</div>
+                    <small>Unhappy</small>
+                </div>
+                <div class="rating">
+                    <div class="icon">😐</div>
+                    <small>Neutral</small>
+                </div>
+                <div class="rating">
+                    <div class="icon">😆</div>
+                    <small>Satisfied</small>
+                </div>
+            </div>
+        </div>
+        <button class="btn" id="send">Send Feedback</button>
+    </section>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: rgb(42, 40, 40);
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        .panel-container {
+            background-color: black;
+            color: white;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            font-size: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            width: 700px;
+        }
+
+        .ratings-container {
+            display: flex;
+            margin: 20px 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 500px;
+        }
+        .rating {
+            flex: 1;
+            padding: 20px;
+            margin: 10px 5px;
+            cursor: pointer;
+        }
+        .rating:hover, .rating.active{
+            border-radius: 4px;
+            background-color: #ccc;
+            transition: 1s ease;
+        }
+        .rating .icon {
+            width: 40px;
+            font-size: 5rem;
+            margin-left: 4px;
+        }
+        .rating small {
+            color: #fff;
+            display: inline-block;
+            margin: 10px 0 0;
+        }
+        .btn{
+            background: #fff;
+            color: black;
+            border: 0;
+            border-radius: 4px;
+            padding: 12px 30px;
+            cursor: pointer;
+            outline: 0;
+            box-shadow: 1px 2px 10px 0px
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        .heart{
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+    </style>
+
+
+
+    <script src="./inde.js"></script>
+</body>
+
+</html>
